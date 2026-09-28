@@ -1,6 +1,83 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment Variables
 .env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Database
 db/
-*.pyc
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output files
+outputs/
+results/
+*.txt
+!requirements.txt
+!CONTRIBUTING.md
+!CHANGELOG.md
+!LICENSE
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# ChromaDB specific
+chroma.sqlite3
+*.bin
+*.pickle
+
+# Model cache
+.cache/
+models/
+checkpoints/
